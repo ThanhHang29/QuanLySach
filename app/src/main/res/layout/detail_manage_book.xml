@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            style="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:text="@string/author"
+            android:layout_height="match_parent" />
+        <Spinner
+            android:layout_width="0dp"
+            android:id="@+id/spAuthor"
+            android:layout_weight="3"
+            style="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:hint="Dan Brown"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+            <requestFocus/>
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            style="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:text="@string/name_book"
+            android:layout_height="match_parent" />
+        <EditText
+            android:layout_width="0dp"
+            android:id="@+id/edtNameBook"
+            android:layout_weight="3"
+            style="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:hint="Tên sách"
+            android:textStyle="bold"
+            android:layout_height="match_parent">
+            <requestFocus/>
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            style="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:text="@string/date"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/tvDate"
+                android:layout_weight="4"
+                style="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_height="match_parent">
+            </TextView>
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/btnSelectDate"
+                android:text="..."
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/tvAddBook"
+        android:background="@drawable/state_bg"
+        android:text="Thêm sách"
+        android:gravity="center"
+        android:textColor="@color/black"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="5dp"
+        android:id="@+id/lvListBook"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Quản lý sách</string>
+    <string name="title">Quản Lý Sách</string>
+    <string name="add_author">Thêm tác giả</string>
+    <string name="name_author">Xem danh sách tác giả</string>
+    <string name="manage_book">Quản lý sách</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_author_new">Thêm mới tác giả</string>
+    <string name="seri_author">Mã tác giả :</string>
+    <string name="clear">Xoá trắng</string>
+    <string name="tvSaveAuthor">Lưu tác giả</string>
+    <string name="view">View Detail</string>
+    <string name="updateAuthor">Update</string>
+    <string name="author">Tác giả :</string>
+    <string name="name_book">Tên sách :</string>
+    <string name="date">Ngày XB :</string>
+    <string name="addbook">Tên sách</string>
+    <string name="empty">Mã hoặc tên tác giả bị trống !!</string>
+    <string name="add_success">Lưu thành công</string>
+    <string name="update_success">Update thành công</string>
+    <string name="remove">Remove</string>
+    <string name="delete">Bạn muốn xoá [</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tvIdBook"
+            android:layout_weight="1"
+            android:text="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tvTitle"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="3"
+            android:text="Biểu tượng thất truyền"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/tvDateBook"
+            android:layout_weight="2"
+            android:text="22/05/2005"
+            android:textColor="@color/black"
+            android:gravity="center"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
